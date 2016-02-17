@@ -1,0 +1,85 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1.title {
+  font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn {
+  border: 1px solid #777777;
+  color: #777777;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+nav ul {
+    width: 70%;
+    padding: 20px 50px;
+    text-align: center;
+    margin: 0px auto;
+
+    color: #60DFE5;
+}
+
+.nav-element {
+  list-style: none;
+    line-height: 3pc;
+    line-height: 3rem;
+    display: inline-block;
+    width: 24%;
+}
+
+.nav-element>a {
+    font-weight: 100;
+    color: #60DFE5;
+    text-align: center;
+}
+
+.image_header {
+  width:100%;
+  height:600px;
+  background-image: url(http://www.tesoridabruzzo.com/wp-content/uploads/2013/10/mauro-cantoro_torre-di-cerrano_Pineto.jpg);
+  background-size:cover;
+}
+
+.container.features {
+  padding: 100px 0 0;
+}
+
+.features .col-lg-6 {
+  padding: 40px;
+}
+
+.image_background {
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(http://www.tesoridabruzzo.com/wp-content/uploads/2013/10/mauro-cantoro_torre-di-cerrano_Pineto.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container.features {
+      padding: 30px 0;
+    }
+
+}
+
+

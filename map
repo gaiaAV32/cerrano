@@ -1,0 +1,27 @@
+nav
+
+header (book now)
+
+	history
+		slider
+		+ artcles
+	
+	food
+		restaurant
+		+ menus
+
+	rooms
+		hotel
+			show rooms
+		apartments
+			show flats
+
+	spa
+		slider
+		+ choose package
+
+	tours
+		slider
+		+ show tours
+
+footer
