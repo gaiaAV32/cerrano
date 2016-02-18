@@ -18,10 +18,20 @@
 
     <link rel="stylesheet" id="css-defaultStyle" href="style.css"/>
 
-    <link rel="stylesheet" id="css-defaultStyle" href="homepage.css"/>
+    <link rel="stylesheet" id="css-defaultStyle" href="restaurant.css"/>
 
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider();
+        animation: "fade"
+      });
+    </script>
 
 
 </head>
@@ -53,17 +63,28 @@
   </ul>
 </nav>
 
-<!-- <div class="image_background">
- </div> -->
-  <div class="image_header jumbotron">
-      <h1 class="title">WELCOME</h1>
-  </div>
+<div class="flexslider">
+
+  <ul class="slides">
+    <li>
+      <img src="https://pixabay.com/static/uploads/photo/2015/01/18/16/00/steamed-clams-603110_960_720.jpg" />
+    </li><li>
+      <img src="https://pixabay.com/static/uploads/photo/2015/03/05/18/30/spaghetti-660748_960_720.jpg" />
+    </li>
+    <li>
+      <img src=https://pixabay.com/static/uploads/photo/2015/03/31/17/40/relax-701362_960_720.jpg />
+    </li>
+  </ul>
+</div>
+
+
+
 
 <section>
-  <div class="container features history">
+  <div class="container features history col-lg-6">
       
-      <div class="col-lg-6">
-        <img src="http://www.agica.it/wp-content/uploads/2014/04/1-05-1984-CAPODOGLIO-Ph.Daniele-DAgostino.jpg" width="100%">
+      <div class="col-lg-6" >
+        <img src="https://pixabay.com/static/uploads/photo/2016/01/19/18/02/pastas-1150032_960_720.jpg" width="100%">
       </div>
 
       <div class="col-lg-6">
@@ -79,13 +100,11 @@
 </section>
 
 <section>
-  <div class="container features food">
+  <div class="container features food col-lg-6">
 
       <div class="col-lg-6">
-        <h2>The Food</h2>
+        <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <a href="restaurant.html" class="btn btn-primary-outline" role="button">Find Out More</a>
-
       </div>
 
       <div class="col-lg-6">
