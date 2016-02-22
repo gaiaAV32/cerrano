@@ -36,9 +36,51 @@
   opacity: 0;
 }
 
+.flex-control-nav, .flex-direction-nav a {
+    display: none;
+}
 
+.container.features.food .col-sm-8 {
+  padding: 0 0 30%;
+}
 
+.restaurant-info {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
 
+.restaurant-menus .menu-block .menu-list {
+  list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.restaurant-menus .menu-block .menu-list li {
+    display: table;
+    width: 100%;
+}
+
+.restaurant-menus .menu-block .menu-list .name {
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.restaurant-menus .menu-block .menu-list .dish {
+    padding-right: 20px;
+}
+.restaurant-menus .menu-block .menu-list li > * {
+    display: table-cell;
+    vertical-align: top;
+}
+.restaurant-menus .menu-block .menu-list .price {
+    width: 20px;
+    text-align: right;
+}
 
 
 @media screen and (max-width: 768px) {

@@ -6,6 +6,8 @@
     <title></title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,500' rel='stylesheet' type='text/css'>
 
@@ -18,11 +20,10 @@
 
     <link rel="stylesheet" id="css-defaultStyle" href="style.css"/>
 
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+
     <link rel="stylesheet" id="css-defaultStyle" href="restaurant.css"/>
 
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
-
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
 
@@ -41,20 +42,25 @@
 <nav>
   <ul>
     <li class="nav-element">
-      <a href="#">
-        <span>room</span>
+      <a href="history.html">
+        <span>history</span>
       </a>
     </li>
     <li class="nav-element">
-      <a href="#">
-        <span>room</span>
+      <a href="restaurant.html">
+        <span>restaurant</span>
       </a>
     </li>
     <li class="nav-element">
-      <a href="#">
-        <span>room</span>
+      <a href="homepage.html">
+        <span>home</span>
       </a>
     </li>
+    <li class="nav-element">
+      <a href="hotel.html">
+        <span>room</span>
+      </a>
+    </li>    
     <li class="nav-element">
       <a href="#">
         <span>room</span>
@@ -78,40 +84,45 @@
 </div>
 
 
-
-
 <section>
-  <div class="container features history col-lg-6">
-      
-      <div class="col-lg-6" >
-        <img src="https://pixabay.com/static/uploads/photo/2016/01/19/18/02/pastas-1150032_960_720.jpg" width="100%">
+
+  <div class="container features food">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
+        <div class="restaurant-info">
+          <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+
+        <div class="restaurant-info">
+          <img src="https://pixabay.com/static/uploads/photo/2016/01/19/18/02/pastas-1150032_960_720.jpg" width="100%">
+        </div>
       </div>
 
-      <div class="col-lg-6">
-        <h2>The History</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <a href="history.html" class="btn btn-primary-outline" role="button">Find Out More</a>
+      <div class="col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="restaurant-menus">
 
+          <div class="menu-block">
+            <h2>Tapas</h2>
 
+              <ul class="menu-list">
+                <li><span class="dish"><span class="name">TAPAS DU MONDE</span><span class="ingredients">Chorizo, jambon cru, tomates mozzarella, tortillas guacamole, saumon fumé, tempura de légumes, rillettes de poisson</span></span><span class="price">16</span></li>
+                <li><span class="dish"><span class="name">SAVEURS D’ASIE</span><span class="ingredients">Tempura de gambas et légumes, nems, samoussas, sauce piquante</span></span><span class="price">16</span></li>
+                <li><span class="dish"><span class="name">PIQUE-NIQUE</span><span class="ingredients">Assortiment de fromages et charcuteries, salade, gelée de groseilles, cornichons</span></span><span class="price">16</span></li>
+                <li><span class="dish"><span class="name">PÉKIN</span><span class="ingredients">Nems de poulet, sauce piquante</span></span><span class="price">8</span></li>
+                <li><span class="dish"><span class="name">TOKYO</span><span class="ingredients">Tempura de gambas et légumes, sauce piquante</span></span><span class="price">9</span></li>
+                <li><span class="dish"><span class="name">NEW-YORK</span><span class="ingredients">Nuggets maison, sauce tartare</span></span><span class="price">8</span></li>
+                <li><span class="dish"><span class="name">FORT DE FRANCE</span><span class="ingredients">Accras de morue et beignets de calamar, sauce chili</span></span><span class="price">7</span></li>
+                <li><span class="dish"><span class="name">NAPLES</span><span class="ingredients">Bâtonnets de mozzarella fondante, sauce ciboulette, sauce barbecue</span></span><span class="price">8</span></li>
+                <li><span class="dish"><span class="name">PARIS</span><span class="ingredients">Saucissons et fromages</span></span><span class="price">10</span></li>
+              </ul>
+          </div>
+        </div>
 
       </div>
-      
-  </div>
-</section>
 
-<section>
-  <div class="container features food col-lg-6">
-
-      <div class="col-lg-6">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      </div>
-
-      <div class="col-lg-6">
-        <img src="http://www.agica.it/wp-content/uploads/2014/04/1-05-1984-CAPODOGLIO-Ph.Daniele-DAgostino.jpg" width="100%">
-      </div>
-
-      
+    </div>
   </div>
 </section>
 

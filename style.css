@@ -26,7 +26,6 @@ nav ul {
     padding: 20px 50px;
     text-align: center;
     margin: 0px auto;
-
     color: #60DFE5;
 }
 
@@ -35,7 +34,7 @@ nav ul {
     line-height: 3pc;
     line-height: 3rem;
     display: inline-block;
-    width: 24%;
+    width: 19%;
 }
 
 .nav-element>a {
@@ -47,7 +46,7 @@ nav ul {
 
 .flexslider .slides img {
   height: auto;
-  max-height: 500px;
+  background-size: cover;
   -moz-user-select: none;
 }
 
