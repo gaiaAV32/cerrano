@@ -9,15 +9,20 @@
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-  <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" id="css-defaultStyle" href="normalize.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,500' rel='stylesheet' type='text/css'>
 
-  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:100,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:100,400' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" id="css-defaultStyle" href="css/bootstrap-theme.css"/>
-    <link rel="stylesheet" id="css-defaultStyle" href="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css"/>
+
     <link rel="stylesheet" id="css-defaultStyle" href="css/bootstrap-theme.min.css"/>
+
     <link rel="stylesheet" id="css-defaultStyle" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" id="css-defaultStyle" href="normalize.css"/>
+      
+    <link rel="stylesheet" id="css-defaultStyle" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/css/bootstrap-datepicker.css"/>
+
+
 
     <link rel="stylesheet" id="css-defaultStyle" href="style.css"/>
 
@@ -25,10 +30,14 @@
 
     <link rel="stylesheet" href="css/flexslider.css" type="text/css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery-1.12.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
     <script src="js/jquery.flexslider.js"></script>
+
     <script src="js/hotel.js"></script>
-    <script src="bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/js/bootstrap-datepicker.js"></script>
+
 
     <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
@@ -36,6 +45,7 @@
         animation: "slide"
       });
     </script>
+
 
 </head>
 
@@ -100,193 +110,44 @@
   </ul>
 </div>
 
-<div class="booking hotel">
+  <div class="booking hotel">
 
-  <h2>
-    Check availability
-  </h2>
+    <h2>
+      Check availability
+    </h2>
 
-  <div class="roomSelect">
+    <div class="roomSelect">
 
-      <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary roomSelected">
-          <input type="radio" name="options" id="option1" autocomplete="off" checked> Double Room
-        </label>
-        <label class="btn btn-primary roomSelected">
-          <input type="radio" name="options" id="option2" autocomplete="off"> Deluxe Room 
-        </label>
-        <label class="btn btn-primary roomSelected">
-          <input type="radio" name="options" id="option3" autocomplete="off"> Suite
-        </label>
-      </div>
-
-  </div>
-
-  <div class="span5 col-md-5" id="sandbox-container">
-    <div>
-      <div class="datepicker datepicker-inline">
-        <div class="datepicker-days" style="display: block;">
-          <table class=" table-condensed">
-            <thead>
-              <tr>
-                <th colspan="7" class="datepicker-title" style="display: none;"></th>
-              </tr>
-              <tr>
-                <th class="prev" style="visibility: visible;">«</th>
-                <th colspan="5" class="datepicker-switch">February 2016</th>
-                <th class="next" style="visibility: visible;">»</th>
-              </tr>
-              <tr>
-                <th class="dow">Su</th>
-                <th class="dow">Mo</th>
-                <th class="dow">Tu</th>
-                <th class="dow">We</th>
-                <th class="dow">Th</th>
-                <th class="dow">Fr</th>
-                <th class="dow">Sa</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="day old">31</td>
-                <td class="day">1</td>
-                <td class="day">2</td>
-                <td class="day">3</td>
-                <td class="day">4</td>
-                <td class="day highlighted">5</td>
-                <td class="day highlighted">6</td>
-              </tr>
-              <tr>
-                <td class="day">7</td>
-                <td class="day">8</td>
-                <td class="day">9</td>
-                <td class="day">10</td>
-                <td class="day">11</td>
-                <td class="day highlighted">12</td>
-                <td class="day highlighted">13</td>
-              </tr>
-              <tr>
-                <td class="day">14</td>
-                <td class="day">15</td>
-                <td class="day">16</td>
-                <td class="day">17</td>
-                <td class="day">18</td>
-                <td class="day highlighted">19</td>
-                <td class="day highlighted">20</td>
-              </tr>
-              <tr>
-                <td class="day">21</td>
-                <td class="day">22</td>
-                <td class="day">23</td>
-                <td class="day">24</td>
-                <td class="day">25</td>
-                <td class="day highlighted">26</td>
-                <td class="day highlighted">27</td>
-              </tr>
-              <tr>
-                <td class="day">28</td>
-                <td class="day">29</td>
-                <td class="day new">1</td>
-                <td class="day new">2</td>
-                <td class="day new">3</td>
-                <td class="day highlighted new">4</td>
-                <td class="day highlighted new">5</td>
-              </tr>
-              <tr>
-                <td class="day new">6</td>
-                <td class="day new">7</td>
-                <td class="day new">8</td>
-                <td class="day new">9</td>
-                <td class="day new">10</td>
-                <td class="day highlighted new">11</td>
-                <td class="day highlighted new">12</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th colspan="7" class="today">Today</th>
-              </tr>
-              <tr>
-                <th colspan="7" class="clear">Clear</th>
-              </tr>
-            </tfoot>
-          </table>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary roomSelected">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> Double Room
+          </label>
+          <label class="btn btn-primary roomSelected">
+            <input type="radio" name="options" id="option2" autocomplete="off"> Deluxe Room 
+          </label>
+          <label class="btn btn-primary roomSelected">
+            <input type="radio" name="options" id="option3" autocomplete="off"> Suite
+          </label>
         </div>
-        <div class="datepicker-months" style="display: none;">
-          <table class="table-condensed">
-            <thead>
-              <tr>
-                <th colspan="7" class="datepicker-title" style="display: none;"></th>
-              </tr>
-              <tr>
-                <th class="prev" style="visibility: visible;">«</th>
-                <th colspan="5" class="datepicker-switch">2016</th>
-                <th class="next" style="visibility: visible;">»</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span>
-                  <span
-                  class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th colspan="7" class="today">Today</th>
-              </tr>
-              <tr>
-                <th colspan="7" class="clear">Clear</th>
-              </tr>
-            </tfoot>
-          </table>
-        </div>
-        <div class="datepicker-years" style="display: none;">
-          <table class="table-condensed">
-            <thead>
-              <tr>
-                <th colspan="7" class="datepicker-title" style="display: none;"></th>
-              </tr>
-              <tr>
-                <th class="prev" style="visibility: visible;">«</th>
-                <th colspan="5" class="datepicker-switch">2010-2019</th>
-                <th class="next" style="visibility: visible;">»</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td colspan="7"><span class="year old">2009</span><span class="year">2010</span><span class="year">2011</span><span class="year">2012</span><span class="year">2013</span><span class="year">2014</span><span class="year">2015</span><span class="year">2016</span>
-                  <span
-                  class="year">2017</span><span class="year">2018</span><span class="year">2019</span><span class="year new">2020</span></td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th colspan="7" class="today">Today</th>
-              </tr>
-              <tr>
-                <th colspan="7" class="clear">Clear</th>
-              </tr>
-            </tfoot>
-          </table>
-        </div>
+
+    </div>
+
+    <div class="container">
+      <div class="hero-unit">
+        <input  type="text"  id="datepicker">
       </div>
     </div>
+
+
   </div>
 
-
-
-
-</div>
-
-    <script>
-
-      $(document).ready(function(){
-          $('label.btn.btn-primary.roomSelect').click(function(){
-              $(this).toggleClass("active");
+<script>
+$(document).ready(function(){
+    $('label.btn.btn-primary.roomSelect').click(function(){
+      $(this).toggleClass("active");
           });
       });
-    </script>
+</script>
 
 </body>
 </html>
