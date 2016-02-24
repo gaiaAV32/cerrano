@@ -133,11 +133,16 @@ html[xmlns] .flexslider .slides {
 }
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 40px;
+  font-size: 20px;
   display: inline-block;
-  content: '\f001';
+  content: '\f003';
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
   color: rgba(0, 0, 0, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  text-shadow:none;
 }
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
@@ -193,6 +198,7 @@ html[xmlns] .flexslider .slides {
 }
 .flex-pauseplay a.flex-play:before {
   content: '\f003';
+
 }
 .flex-control-nav {
 	display: block;

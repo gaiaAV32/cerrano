@@ -102,6 +102,7 @@
 .datepicker table tr td.day.focused {
   background: #eeeeee;
   cursor: pointer;
+  outline: none;
 }
 .datepicker table tr td.old,
 .datepicker table tr td.new {

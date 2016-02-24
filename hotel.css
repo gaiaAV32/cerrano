@@ -93,6 +93,30 @@ th.datepicker-switch {
   text-align: center;
 }
 
+.col-sm-6.pickers {
+      display: inline-block;
+    margin: 0 auto;
+    float: none;
+}
+
+input {
+    outline: none;
+  }
+
+.hero-unit {
+  width: 49%;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#datepicker, #datepicker2 {
+  width: 40%;
+}
+
+a.flex-prev {
+    content: 'f003';
+}
+
 @media screen and (max-width: 768px) {
 
     .container.features {

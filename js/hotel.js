@@ -23,4 +23,11 @@ $(document).ready(function () {
     $('#datepicker').datepicker("setDate", new Date());
 });
 
+$(document).ready(function () {
+    $('#datepicker2').datepicker({
+        format: "dd/mm/yyyy"});
+    
+    $('#datepicker2').datepicker("setDate", new Date());
+});
+
 
