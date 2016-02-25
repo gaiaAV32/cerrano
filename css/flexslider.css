@@ -124,7 +124,7 @@ html[xmlns] .flexslider .slides {
   opacity: 0;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  text-shadow: 1px 1px 0 rgba(50, 50, 50, 0.8);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -133,7 +133,7 @@ html[xmlns] .flexslider .slides {
 }
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 20px;
+  font-size: 30px;
   display: inline-block;
   content: '\f003';
   -webkit-transform: rotate(180deg);
@@ -141,11 +141,16 @@ html[xmlns] .flexslider .slides {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(50, 50, 50, 0.8);
   text-shadow:none;
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+  content: '\f003';
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 .flex-direction-nav .flex-prev {
   left: -50px;

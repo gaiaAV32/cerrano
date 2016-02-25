@@ -53,3 +53,25 @@ nav ul {
 .flex-direction-nav a {
   display: none;
   }
+
+footer.footer {
+  border-top: 2px solid #60DFE5;
+  padding: 50px;  margin-top: 50px;
+
+}
+
+p.text-muted.address:after {
+    content: "";
+    width: 35px;
+    height: 4px;
+    background-color: #60DFE5;
+    display: block;
+    margin: 30px 0;
+}
+
+.footer .container . left
+
+
+
+
+

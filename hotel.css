@@ -33,12 +33,24 @@
 }
 
 .caption {
-  position: absolute;
-  bottom: 100px;
-  margin: 0;
-  padding: 30px 80px;
-  background-color: rgba(255, 255, 255, 0.3);
-  font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 30px;
+}
+
+.caption p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.caption li {
+  font-size: 20px;
 }
 
 #home_slider ul.slides li img{
